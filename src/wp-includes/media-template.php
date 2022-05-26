@@ -438,10 +438,10 @@ function wp_print_media_templates() {
 					<# } #>
 
 					<# if ( data.originalImageURL && data.originalImageName ) { #>
-                        <div class="original-image">
-						    <?php _e( 'Original image:' ); ?>
-						    <a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
-                        </div>
+						    <div class="original-image">
+						        <?php _e( 'Original image:' ); ?>
+						        <a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
+						    </div>
 					<# } #>
 				<# } #>
 
