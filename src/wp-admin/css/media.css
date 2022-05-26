@@ -813,6 +813,10 @@ border color while dragging a file over the uploader drop area */
 	color: #646970;
 }
 
+.attachment-info .original-image {
+	word-wrap: break-word;
+}
+
 .edit-attachment-frame .attachment-info .thumbnail {
 	margin-bottom: 12px;
 }

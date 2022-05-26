@@ -1840,6 +1840,10 @@
 	word-wrap: break-word;
 }
 
+.attachment-info .original-image {
+	word-wrap: break-word;
+}
+
 .attachment-info .thumbnail {
 	position: relative;
 	float: left;
